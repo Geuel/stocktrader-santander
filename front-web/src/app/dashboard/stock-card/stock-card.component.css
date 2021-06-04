@@ -1,0 +1,58 @@
+.stock-card-container {
+  width: 21.375rem;
+  height: 13.8125rem;
+  background-color: var(--secundary-color);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.25rem;
+  border-left: 0.25rem solid var(--positive-variation-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stock-info-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-info-container h2,
+p {
+  margin: 0;
+}
+
+.stock-info-container h2 {
+  color: var(--text-color);
+}
+
+.stock-info-container p {
+  color: var(--text-color-light);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.stock-value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.stock-value-container .value {
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.stock-value-container .variation {
+  background-color: var(--positive-variation-color);
+  color: var(--secundary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  align-self: flex-end;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+}

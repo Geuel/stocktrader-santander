@@ -3,6 +3,7 @@
   --primary-color: #ea1025;
   --secundary-color: #fff;
   --text-color: #5c6369;
+  --text-color-light: rgba(92, 99, 105, 0.45);
   --positive-variation-color: #87d883;
   --negative-variation-color: #f55a5f;
 }
